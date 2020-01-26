@@ -1,0 +1,9 @@
+<template>
+  <h1 class="text-2xl">Heading</h1>
+</template>
+
+<script land="ts">
+export default {
+  
+}
+</script>
