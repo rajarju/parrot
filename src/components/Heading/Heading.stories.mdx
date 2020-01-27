@@ -7,7 +7,15 @@ import Heading from './Heading.vue';
 
 Heading component
 
-<Story name='basic' height='400px'>{{
+## Title
+
+<Story name='title' height='200px'>{{
+  components: { Heading },
+  template: '<Heading>heading</Heading>',
+}}</Story>
+
+## Sub Heading
+<Story name='subheading' height='200px'>{{
   components: { Heading },
   template: '<Heading>heading</Heading>',
 }}</Story>
